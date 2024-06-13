@@ -1,0 +1,19 @@
+ .header-color { 
+/*    background-color: #181b91bd !important;*/
+    background-color: #912918e3 !important;
+    opacity: 100% !important;;
+}
+.testimonial-text{
+    text-align: center;
+}
+.about-section{
+    width:100% !important;
+}
+.hero_image{
+   width:100% !important;
+}
+/*.background_image {
+    background-image: url(assets/img/hero_image.png) !important;
+    background-size: cover;
+}
+*/
