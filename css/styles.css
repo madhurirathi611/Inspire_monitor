@@ -8131,7 +8131,7 @@ textarea.form-control-lg {
 }*/
 .bg-primary {
     --bs-bg-opacity: 1;
-    background-color: rgb(112 175 161 / 72%) !important;
+    background-color: #E1EBFF !important;
     }
 
 .bg-secondary {

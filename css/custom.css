@@ -1,6 +1,6 @@
  .header-color { 
 /*    background-color: #181b91bd !important;*/
-    background-color: #912918e3 !important;
+    background-color: #131E70!important;
     opacity: 100% !important;;
 }
 .testimonial-text{
@@ -11,6 +11,26 @@
 }
 .hero_image{
    width:100% !important;
+}
+.logo {
+        max-width: 150px;
+      }
+.hero_img{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.footer-color{
+    background-color: #000000 !important;
+}
+.head-color{
+color: #131E70 !important;
+}
+.user_name{
+    text-align: center;
+}
+.about-image{
+    width:85% !important;
+    float:right !important;
 }
 /*.background_image {
     background-image: url(assets/img/hero_image.png) !important;

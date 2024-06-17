@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -21,7 +22,11 @@
         <!-- Navigation-->
         <nav class="header-color navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#page-top">Inspire & Monitor</a>
+                <!-- <img class="logo" src="assets/img/White_logo.png" alt="..." /> -->
+                <!-- <a class="navbar-brand" href="#page-top">Inspire & Monitor</a> -->
+                <a class="navbar-brand" href="#page-top">
+                    <img class="logo" src="assets/img/White_logo.png" alt="..." />
+                </a>
                 <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -29,42 +34,74 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#page-top">Home</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#testimonial">Testimonial</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#testimonial">Testimonial</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#signin">SignIn</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#signup">SignUp</a></li>
+                        <!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="parent/login.php">SignIn</a></li> -->
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="parent/signUp.php">login/SignUp</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Masthead-->
-        <header class=" masthead bg-primary text-white text-center">
+        <header class="hero_img masthead bg-primary text-white text-center">
             <div class=" container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
                 <!-- <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." /> -->
-                <img class="hero_image masthead-avatar mb-5" src="assets/img/hero_image.png" alt="..." />
+                <!-- <img class="hero_image masthead-avatar mb-5" src="assets/img/hero_image1.jpg" alt="..." /> -->
                 <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Tagline Here</h1>
+                <!-- <h1 class="masthead-heading text-uppercase mb-0">Tagline Here</h1> -->
                 <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
+                <!-- <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
-                </div>
+                </div> -->
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Sub Heading</p>
+                <!-- <p class="masthead-subheading font-weight-light mb-0">Sub Heading</p> -->
             </div>
         </header>
+        <div class="hero_image">
+            <img class="hero_image masthead-avatar" src="assets/img/hero_image1.jpg" alt="..." />
+        </div>
+        <!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary head-color">About</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom head-color">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon head-color"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-6 ms-auto"><p class="lead head-color" >Welcome to Inspire & Monitor, your go-to platform for tracking your child's daily study activities and fostering a love for learning! Our mission is to empower children by making daily learning an exciting adventure, with a user-friendly interface that helps kids log their activities, earn rewards, and stay organized. Parents can easily monitor progress through detailed reports, while a wealth of educational resources enhances the learning experience. Join us today to transform daily learning into a journey filled with excitement, growth, and endless possibilities.</p></div>
+                    <div class="col-sm-6 me-auto">
+                        <p class="lead">
+                        </p>
+                        <img class="about-section about-image" src="assets/img/about_us1.jpg" />
+                    </div>
+                </div>
+                <!-- About Section Button-->
+<!--                 <div class="text-center mt-4">
+                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
+                        <i class="fas fa-download me-2"></i>
+                        Free Download!
+                    </a>
+                </div> -->
+            </div>
+        </section>
         <!-- Portfolio Section-->
         <section class="page-section portfolio" id="testimonial">
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Testimonial</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary head-color mb-0">Testimonial</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon head-color"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Grid Items-->
@@ -75,7 +112,10 @@
                             <!-- <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div> -->
-                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
+                            <!-- <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." /> -->
+                            <h3 class="user_name head-color">
+                                Name Here
+                            </h3>
                             <div class="testimonial-text"> 
                                 <p>"Using Inspire & Monitor has been a game-changer for our family. My son looks forward to logging his daily activities and earning rewards. It's made studying fun and something he actually enjoys doing every day. As a parent, I love being able to track his progress and see how much he's improving!"
                                 </p></div>
@@ -87,7 +127,10 @@
                             <!-- <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div> -->
-                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
+                            <!-- <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="..." /> -->
+                            <h3 class="user_name head-color">
+                                Name Here
+                            </h3>
                             <div class="testimonial-text"> 
                                 <p>
                                 "I recommend Inspire & Monitor to all my students and their parents. It's a fantastic tool that encourages daily learning and helps kids stay organized. The resources provided are top-notch, and the reward system keeps students motivated. It's great to see my students excited about their learning journey."
@@ -100,7 +143,10 @@
                             <!-- <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div> -->
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
+                            <!-- <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." /> -->
+                            <h3 class="user_name head-color">
+                                Name Here
+                            </h3>
                             <div class="testimonial-text"> 
                                 <p>
                                 "We've tried several study tracking apps, but Inspire & Monitor is by far the best. The interface is so intuitive, and my daughter loves the colorful graphics and engaging activities. I've noticed a significant improvement in her study habits and overall performance. This website has truly made a positive impact on her learning!"
@@ -110,44 +156,15 @@
                 </div>
             </div>
         </section>
-        <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Welcome to Inspire & Monitor, your go-to platform for tracking your child's daily study activities and fostering a love for learning! Our mission is to empower children by making daily learning an exciting adventure, with a user-friendly interface that helps kids log their activities, earn rewards, and stay organized. Parents can easily monitor progress through detailed reports, while a wealth of educational resources enhances the learning experience. Join us today to transform daily learning into a journey filled with excitement, growth, and endless possibilities.</p></div>
-                    <div class="col-sm-4 me-auto">
-                        <p class="lead">
-                        </p>
-                        <img class="about-section" src="assets/img/about_us.png" />
-                    </div>
-                </div>
-                <!-- About Section Button-->
-<!--                 <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                        <i class="fas fa-download me-2"></i>
-                        Free Download!
-                    </a>
-                </div> -->
-            </div>
-        </section>
         <!-- Contact Section-->
-        <section class="page-section" id="contact">
+        <section class="page-section bg-primary" id="contact">
             <div class="container">
                 <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary head-color mb-0">Contact US</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon head-color"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Contact Section Form-->
@@ -192,10 +209,7 @@
                             <!-- has successfully submitted-->
                             <div class="d-none" id="submitSuccessMessage">
                                 <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                    <div class="fw-bolder">Form submission successful!</div>                                
                                 </div>
                             </div>
                             <!-- Submit error message-->
@@ -211,7 +225,7 @@
             </div>
         </section>
         <!-- Footer-->
-        <footer class="footer text-center">
+        <footer class="footer text-center footer-color">
             <div class="container">
                 <div class="row">
                     <!-- Footer Location-->
@@ -237,7 +251,6 @@
                         <p class="lead mb-0">
                             Place your text here
                             <a href="#">Place your text here</a>
-                            .
                         </p>
                     </div>
                 </div>
@@ -245,7 +258,7 @@
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Your Website 2023</small></div>
+            <div class="container"><small>Copyright &copy; Inspire & Monitor 2024</small></div>
         </div>
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
