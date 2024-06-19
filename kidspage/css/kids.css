@@ -1,0 +1,25 @@
+.math-sheets {
+    border: solid px #314159;
+    border-radius: 10px;
+    margin: 10px 10px;
+    background-color: rgba(0, 51, 102, 0.1);
+}
+
+.math-heading{
+
+        padding: 4rem 0;
+        font-family: 'Arial', sans-serif; /* Change font family */
+        font-size: 24px; /* Change font size */
+        text-align: center; /* Center text (from text-center class) */
+        color: #888888; /* Secondary text color (from text-secondary class or head-color) */
+        /* Define any additional styles you need */
+    
+}
+.content-sheet
+{
+        font-family: 'Arial', sans-serif; /* Change font family */
+        font-size: 15px; /* Change font size */
+        text-align: center; /* Center text (from text-center class) */
+        color: #0a0909; /* Secondary text color (from text-secondary class or head-color) */
+        /* Define any additional styles you need */
+}
