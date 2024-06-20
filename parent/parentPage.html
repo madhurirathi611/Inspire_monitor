@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -6,20 +7,25 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Inspire and Monitor</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/styles.css" rel="stylesheet" />
         <link href="../css/custom.css" rel="stylesheet" />
+        <link href="css/kids.css" rel="stylesheet" />
        
     </head>
     <body id="page-top">
-        <header>
+        <!-- Navigation-->
         <nav class="header-color navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
+                <!-- <img class="logo" src="assets/img/White_logo.png" alt="..." /> -->
+                <!-- <a class="navbar-brand" href="#page-top">Inspire & Monitor</a> -->
                 <a class="navbar-brand" href="#page-top">
                     <img class="logo" src="../assets/img/White_logo.png" alt="..." />
                 </a>
@@ -29,9 +35,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/index.html" style="color: white; font-weight: bold;">Home</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/index.html#about" style="color: white; font-weight: bold;">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/index.html#contact" style="color: white; font-weight: bold;">Contact</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#worksheets">WorkSheets</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#page-top">Home</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><div class="flex-shrink-0 dropdown">
                             <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle nav-link py-3 px-0 px-lg-3 rounded" data-bs-toggle="dropdown" aria-expanded="false">
                               <img src="../assets/img/login-icons-parents.png" alt="mdo" width="42" height="42" class="rounded-circle">
@@ -40,235 +47,331 @@
                               <li><a class="dropdown-item" href="#">Settings</a></li>
                               <li><a class="dropdown-item" href="#">Profile</a></li>
                               <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="#">Sign out</a></li>
-                            </ul>
-                          </div>
-                        </li>
-                    </ul>
+                              <li><a class="dropdown-item" href="../index.html">Sign out</a></li>
+                        </ul>
                 </div>
             </div>
         </nav>
-    </header>
-    <main>
-        <div class="py-5 my-5 text-center">
-            <div class="hero_image">
-                <img class="hero_image masthead-avatar" height="600px" src="../assets/parentbgimg.png" alt="..." />
+        <!-- Masthead-->
+        <header class="hero_img masthead bg-primary text-white text-center">
+            <div class=" container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <!-- <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." /> -->
+                <!-- <img class="hero_image masthead-avatar mb-5" src="assets/img/hero_image1.jpg" alt="..." /> -->
+                <!-- Masthead Heading-->
+                <!-- <h1 class="masthead-heading text-uppercase mb-0">Tagline Here</h1> -->
+                <!-- Icon Divider-->
+                <!-- <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div> -->
+                <!-- Masthead Subheading-->
+                <!-- <p class="masthead-subheading font-weight-light mb-0">Sub Heading</p> -->
             </div>
+        </header>
+        <div class="hero_image">
+            <img class="hero_image masthead-avatar" src="../assets/parentbgimg.png" alt="..." />
+            
+        </div>
+        
+        <!-- Worksheet section -->
+        <section class="page-section bg-primary text-white mb-0" id="worksheets">
             <div class="px-4 py-3 text-center">
-                <h2 class="display-5 fw-light">Explore By Subjects</h2>
+                <h2 class="display-5 fw-light" style="color: blue;">Explore By Subjects</h2>
                 <div class="col-lg-8 mx-auto">
-                  <p>Discover a fun and engaging way to inspire and monitor your kids' learning progress with our interactive platform! Parents can easily upload weekly worksheets covering math, English, writing, and reading. Kids can download and complete the worksheets, then submit them on the same portal. Parents can review their children's work and provide feedback, creating a collaborative learning environment.</p>
+                  <p style="color: blue;">Discover a fun and engaging way to inspire and monitor your kids' learning progress with our interactive platform! Parents can easily upload weekly worksheets covering math, English, writing, and reading. Kids can download and complete the worksheets, then submit them on the same portal. Parents can review their children's work and provide feedback, creating a collaborative learning environment.</p>
                   <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <button type="button" class="btn btn-info btn-lg px-4 gap-3">Uploads Worksheets</button>
+                    <button type="button" class="btn btn-info btn-lg px-4 gap-3" href="#sheets">Prepare the schedule</button>
                     <button type="button" class="btn btn-outline-secondary btn-lg px-4">Review Worksheets</button>
                   </div>
                 </div>
               </div>
-            </div>
-            </main>
-                <!-- Three columns of text below the carousel -->
-               <div class="container">
+            </div>   
                 <div class="row mx-5">
                   <div class="col-lg-3">
                     <img class="bd-placeholder-img rounded-circle" width="160" height="160" src="../assets/img/math-img.jpg" alt="Placeholder">
                <p></p>
-                    <p>Numbers and Number Systems  | Basic Math Facts | Addition Squares | Math Squares | Multi-Operation Math Maze | Math Tables | Multi-Digit Operations | Cross-Number  | Word Problems | | Fractions | Decimals | Percents | Geometry  | more...</p>
-                    <p><a class="btn btn-info" href="#">Schedule Week »</a></p>
+                    <p style="color: blue;">Numbers and Number Systems  | Basic Math Facts | Addition Squares | Math Squares | Multi-Operation Math Maze | Math Tables | Multi-Digit Operations | Cross-Number  | Word Problems | | Fractions | Decimals | Percents | Geometry  | more...</p>
+                    <p><a class="btn btn-info" href="#mathsheet">Schedule Week »</a></p>
                   </div><!-- /.col-lg-4 -->
                   <div class="col-lg-3">
                     <img class="bd-placeholder-img rounded-circle" width="160" height="160" src="../assets/img/eng-img.jpg" alt="Placeholder">
 
                     <p></p>
-                    <p>Alphabet |  Alphabetizing Skills |  Writing Skills |  Handwriting Practice |  Vocabulary |  Word Plexer Puzzle |  Parts of Speech |  Nouns |  Pronouns |  Adjectives |  Verbs |  Adverbs |  Prepositions |  Sentences |  Numbers & Words |  Reading |  more...
+                    <p style="color: blue;">Alphabet |  Alphabetizing Skills |  Writing Skills |  Handwriting Practice |  Vocabulary |  Word Plexer Puzzle |  Parts of Speech |  Nouns |  Pronouns |  Adjectives |  Verbs |  Adverbs |  Prepositions |  Sentences |  Numbers & Words |  Reading |  more...
                     </p></p>
-                    <p><a class="btn btn-info" href="#">Schedule Week »</a></p>
+                    <p><a class="btn btn-info" href="#mathsheet">Schedule Week »</a></p>
                   </div>
                   <div class="col-lg-3">
                     <img class="bd-placeholder-img rounded-circle" width="160" height="160" src="../assets/img/science-img.jpg" alt="Placeholder">
                     <p></p>
-                    <p>Science | Scientific Method | Experiments | Observations | Hypothesis | Variables | Data Analysis | Conclusion | Biology | Chemistry | Physics | Earth Science | Astronomy | Environmental Science | Life Science | more...</p>
-                    <p><a class="btn btn-info" href="#">Schedule Week »</a></p>
+                    <p style="color: blue;">Science | Scientific Method |  Scientific Method| Experiments | Observations | Hypothesis | Variables | Data Analysis | Conclusion | Biology | Chemistry | Physics | Earth Science | Astronomy | Environmental Science | Life Science | more...</p>
+                    <p><a class="btn btn-info" href="#mathsheet">Schedule Week »</a></p>
                   </div><!-- /.col-lg-4 -->
                   <div class="col-lg-3">
                     <img class="bd-placeholder-img rounded-circle" width="160" height="160" src="../assets/img/read-img.jpg" alt="Placeholder">
                     <p></p>
-                    <p>Reading | Phonics | Sight Words | Setting | Theme | Main Idea | Author's Purpose | Text Features | Reading Strategies | Reading Skills | Reading Levels | Literacy | Library | E-books | Audiobooks | Reading Apps | Storytelling |  more...</p>
-                    <p><a class="btn btn-info" href="#">Schedule Week »</a></p>
+                    <p style="color: blue;">Reading | Phonics | Sight Words | Setting | Theme | Main Idea | Author's Purpose | Text Features | Reading Strategies | Reading Skills | Reading Levels | Literacy | Library | E-books | Audiobooks | Reading Apps | Storytelling |  more...</p>
+                    <p><a class="btn btn-info" href="#mathsheet">Schedule Week »</a></p>
                   </div><!-- /.col-lg-4 -->
                 </div>
             </div><!-- /.row -->
+            </section>
             <section class="review worksheets">
                     <section class="py-5 text-center container">
                       <div class="row py-lg-3">
                         <div class="col-lg-6 col-md-8 mx-auto">
-                          <h1 class="fw-light">Unlimited fun. Unlimited learning.</h1>
-                          <p class="lead text-body-secondary">The learning path is your child's personalized learning journey divided into meaningful daily milestones.</p>
-                          <p>
-                            <a href="#" class="btn btn-info my-2">Try for free</a>
-                
-                          </p>
+                            <h1 class="fw-light" style="color: blue;">Unlimited fun. Unlimited learning.</h1>
+                          <p class="lead text-body-secondary" style="color: blue;" >The learning path is your child's personalized learning journey divided into meaningful daily milestones.</p>
                         </div>
-                      </div>
+                      </div>  
                     </section>
-                  
-                    <div class="album py-1 bg-body-tertiary">
-                      <div class="container">
-                  
-                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
-                          <div class="col">
-                            <div class="card shadow-sm">
-                                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../assets/img/worksheet1.jpg" alt="Thumbnail">
+            </section>
+            <section>
+              
+                <div class="album py-1 bg-body-tertiary" id="mathsheet">
+                    <div class="container">
+                
+                      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+                        <div class="col">
+                          <div class="card shadow-sm">
+                              <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../assets/img/worksheet1.jpg" alt="Thumbnail">
 
-                              <div class="card-body">
-                                <p class="card-text"> Math Worksheets</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                  <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-info">Upload</button>
-                                    
-                                  </div>
-            
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="card shadow-sm">
-                                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../assets/img/worksheet2.jpg" alt="Thumbnail">
-
-                              <div class="card-body">
-                                <p class="card-text"> English worksheets</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                  <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-info">Upload</button>
-                                  </div>
-                                 
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="card shadow-sm">
-                                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../assets/img/worksheet3.png" alt="Thumbnail">
-
-                              <div class="card-body">
-                                <p class="card-text"> Reading worksheets</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                  <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-info">Upload</button>
-                                  </div>
+                            <div class="card-body">
+                              <p class="card-text"> Math Worksheets</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                  <button type="button" class="btn btn-sm btn-outline-info">Upload</button>
                                   
                                 </div>
+          
                               </div>
                             </div>
                           </div>
-                  
-                          <div class="col">
-                            <div class="card shadow-sm">
-                                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../assets/img/worksheet4.jpg" alt="Thumbnail">
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                              <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../assets/img/worksheet2.jpg" alt="Thumbnail">
 
-                              <div class="card-body">
-                                <p class="card-text"> Science worksheets</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                  <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-info">Upload</button>
-                                  </div>
-                    
+                            <div class="card-body">
+                              <p class="card-text"> English worksheets</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                  <button type="button" class="btn btn-sm btn-outline-info">Upload</button>
                                 </div>
+                               
                               </div>
                             </div>
                           </div>
-                          
-    
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                              <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../assets/img/worksheet3.png" alt="Thumbnail">
+
+                            <div class="card-body">
+                              <p class="card-text"> Reading worksheets</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                  <button type="button" class="btn btn-sm btn-outline-info">Upload</button>
+                                </div>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                
+                        <div class="col">
+                          <div class="card shadow-sm">
+                              <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../assets/img/worksheet4.jpg" alt="Thumbnail">
+
+                            <div class="card-body">
+                              <p class="card-text"> Science worksheets</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                  <button type="button" class="btn btn-sm btn-outline-info">Upload</button>
+                                </div>
+                  
+                              </div>
+                            </div>
+                          </div>
+                    
             </section>
-            <footer class="footer text-center footer-color">
-                <div class="container">
-                    <div class="row">
-                        <!-- Footer Location-->
-                        <div class="col-lg-4 mb-5 mb-lg-0">
-                            <h4 class="text-uppercase mb-4">Location</h4>
-                            <p class="lead mb-0">
-                                Place your text here
-                                <br>
-                               Place your text here
-                            </p>
-                        </div>
-                        <!-- Footer Social Icons-->
-                        <div class="col-lg-4 mb-5 mb-lg-0">
-                            <h4 class="text-uppercase mb-4">Around the Web</h4>
-                            <a class="btn btn-outline-light btn-social mx-1" href="#!"><svg class="svg-inline--fa fa-facebook-f fa-fw" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg><!-- <i class="fab fa-fw fa-facebook-f"></i> Font Awesome fontawesome.com --></a>
-                            <a class="btn btn-outline-light btn-social mx-1" href="#!"><svg class="svg-inline--fa fa-twitter fa-fw" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg><!-- <i class="fab fa-fw fa-twitter"></i> Font Awesome fontawesome.com --></a>
-                            <a class="btn btn-outline-light btn-social mx-1" href="#!"><svg class="svg-inline--fa fa-linkedin-in fa-fw" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg><!-- <i class="fab fa-fw fa-linkedin-in"></i> Font Awesome fontawesome.com --></a>
-                            <a class="btn btn-outline-light btn-social mx-1" href="#!"><svg class="svg-inline--fa fa-dribbble fa-fw" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="dribbble" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 8C119.252 8 8 119.252 8 256s111.252 248 248 248 248-111.252 248-248S392.748 8 256 8zm163.97 114.366c29.503 36.046 47.369 81.957 47.835 131.955-6.984-1.477-77.018-15.682-147.502-6.818-5.752-14.041-11.181-26.393-18.617-41.614 78.321-31.977 113.818-77.482 118.284-83.523zM396.421 97.87c-3.81 5.427-35.697 48.286-111.021 76.519-34.712-63.776-73.185-116.168-79.04-124.008 67.176-16.193 137.966 1.27 190.061 47.489zm-230.48-33.25c5.585 7.659 43.438 60.116 78.537 122.509-99.087 26.313-186.36 25.934-195.834 25.809C62.38 147.205 106.678 92.573 165.941 64.62zM44.17 256.323c0-2.166.043-4.322.108-6.473 9.268.19 111.92 1.513 217.706-30.146 6.064 11.868 11.857 23.915 17.174 35.949-76.599 21.575-146.194 83.527-180.531 142.306C64.794 360.405 44.17 310.73 44.17 256.323zm81.807 167.113c22.127-45.233 82.178-103.622 167.579-132.756 29.74 77.283 42.039 142.053 45.189 160.638-68.112 29.013-150.015 21.053-212.768-27.882zm248.38 8.489c-2.171-12.886-13.446-74.897-41.152-151.033 66.38-10.626 124.7 6.768 131.947 9.055-9.442 58.941-43.273 109.844-90.795 141.978z"></path></svg><!-- <i class="fab fa-fw fa-dribbble"></i> Font Awesome fontawesome.com --></a>
-                        </div>
-                        <!-- Footer About Text-->
-        
+        </section>
+        <!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary head-color">About</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom head-color">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon head-color"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-6 ms-auto"><p class="lead head-color" >Welcome to Inspire & Monitor, your go-to platform for tracking your child's daily study activities and fostering a love for learning! Our mission is to empower children by making daily learning an exciting adventure, with a user-friendly interface that helps kids log their activities, earn rewards, and stay organized. Parents can easily monitor progress through detailed reports, while a wealth of educational resources enhances the learning experience. Join us today to transform daily learning into a journey filled with excitement, growth, and endless possibilities.</p></div>
+                    <div class="col-sm-6 me-auto">
+                        <p class="lead">
+                        </p>
+                        <img class="about-section about-image" src="../assets/img/about_us1.jpg" />
                     </div>
                 </div>
-            </footer>
-
-            <div class="copyright py-4 text-center text-white">
-                <div class="container"><small>Copyright © Inspire &amp; Monitor 2024</small></div>
+                <!-- About Section Button-->
+<!--                 <div class="text-center mt-4">
+                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
+                        <i class="fas fa-download me-2"></i>
+                        Free Download!
+                    </a>
+                </div> -->
             </div>
+        </section>
+        <!-- Contact Section-->
+        <section class="page-section bg-primary" id="contact">
             <div class="container">
-                <footer class="py-5">
-                  <div class="row">
-                    <div class="col-6 col-md-2 mb-3">
-                      <h5>Section</h5>
-                      <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-                      </ul>
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary head-color mb-0">Contact US</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon head-color"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Contact Section Form-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-xl-7">
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- * * SB Forms Contact Form * *-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- This form is pre-integrated with SB Forms.-->
+                        <!-- To make this form functional, sign up at-->
+                        <!-- https://startbootstrap.com/solution/contact-forms-->
+                        <!-- to get an API token!-->
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- Name input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Full name</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <!-- Email address input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <label for="email">Email address</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <!-- Phone number input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <label for="phone">Phone number</label>
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                            <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <label for="message">Message</label>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                            <!-- Submit success message-->
+                            <!---->
+                            <!-- This is what your users will see when the form-->
+                            <!-- has successfully submitted-->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Form submission successful!</div>                                
+                                </div>
+                            </div>
+                            <!-- Submit error message-->
+                            <!---->
+                            <!-- This is what your users will see when there is-->
+                            <!-- an error submitting the form-->
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                            <!-- Submit Button-->
+                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
+                        </form>
                     </div>
-              
-                    <div class="col-6 col-md-2 mb-3">
-                      <h5>Section</h5>
-                      <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-                      </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-center footer-color">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">
+                            Place your text here
+                            <br />
+                           Place your text here
+                        </p>
                     </div>
-              
-                    <div class="col-6 col-md-2 mb-3">
-                      <h5>Section</h5>
-                      <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-                      </ul>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
                     </div>
-              
-                    <div class="col-md-5 offset-md-1 mb-3">
-                      <form>
-                        <h5>Subscribe to our newsletter</h5>
-                        <p>Monthly digest of what's new and exciting from us.</p>
-                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                          <label for="newsletter1" class="visually-hidden">Email address</label>
-                          <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                          <button class="btn btn-primary" type="button">Subscribe</button>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">About Inspire & Monitor</h4>
+                        <p class="lead mb-0">
+                            Place your text here
+                            <a href="#">Place your text here</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; Inspire & Monitor 2024</small></div>
+        </div>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
                         </div>
-                      </form>
                     </div>
-                  </div>
-              
-                  <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                    <p>© 2024 Inspire &amp; Monitor, All rights reserved.</p>
-                    <ul class="list-unstyled d-flex">
-                      <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-                      <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-                      <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-                    </ul>
-                  </div>
-                </footer>
-              </div>
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
