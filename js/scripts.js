@@ -56,9 +56,11 @@ window.addEventListener('DOMContentLoaded', event => {
 document.getElementById("loginForm").addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent form submission
   
-    // Hardcoded username and password
+   // Hardcoded username and password
     const username = "parent";
     const password = "password";
+    const kidsUsername ="kids";
+    const kidsPassword = "password";
   
     // Get user input
     const inputUsername = document.getElementById("username").value;
@@ -68,7 +70,12 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     if (inputUsername === username && inputPassword === password) {
       // Redirect to parent.html
       window.location.href = "../parent/parentPage.html";
-    } else {
+    }else if(inputUsername === kidsUsername && inputPassword === kidsPassword)
+    {
+        // Redirect to kidspage.html
+      window.location.href = "../kidspage/kidspage.html";
+    }
+    else {
       alert("Invalid username or password. Please try again.");
     }
   });
