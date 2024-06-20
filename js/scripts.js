@@ -52,3 +52,23 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+document.getElementById("loginForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent form submission
+  
+    // Hardcoded username and password
+    const username = "parent";
+    const password = "password";
+  
+    // Get user input
+    const inputUsername = document.getElementById("username").value;
+    const inputPassword = document.getElementById("password").value;
+  
+    // Check if username and password match
+    if (inputUsername === username && inputPassword === password) {
+      // Redirect to parent.html
+      window.location.href = "../parent/parentPage.html";
+    } else {
+      alert("Invalid username or password. Please try again.");
+    }
+  });
